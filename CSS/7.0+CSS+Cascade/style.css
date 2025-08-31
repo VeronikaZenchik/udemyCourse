@@ -19,6 +19,7 @@ p {
 .inner-box{
   background-color: red;
 }
+
 #outer-box{
   border: 10px solid purple;
 }
