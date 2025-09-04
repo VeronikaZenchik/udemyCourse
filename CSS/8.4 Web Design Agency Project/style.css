@@ -62,7 +62,7 @@ text-align: justify;
 
 .tile-image{
   clear: both;
-  display: block;
+  display: inline;
   width: 100%;
   object-fit: cover;
   margin-bottom: 15px;
