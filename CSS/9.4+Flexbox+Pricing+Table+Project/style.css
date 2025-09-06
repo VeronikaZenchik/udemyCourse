@@ -1,0 +1,58 @@
+      body {
+        font-family: "Sono", sans-serif;
+      }
+      
+      .pricing-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 100vh;
+      }
+      
+      .pricing-plan{
+        max-width: 400px;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 20px;
+        flex-grow: 1;
+      }
+
+      .plan-title{
+        font-size: 1.5rem;
+        font-weight: bold; 
+        padding-bottom: 10px;
+      }
+
+      .plan-price{
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding-bottom: 10px;
+      }
+
+      .plan-features{
+        list-style: none;
+      }
+
+      li{
+        padding-bottom: 20px;
+      }
+
+      .plan-button{
+        color: white;
+        font-size: 14px;
+        background-color: rgb(235, 102, 25);
+        border: none;
+        padding: 7px;
+        border-radius: 5px;
+        padding-bottom: 10px;
+      }
+
+
+      /* Hint: What can you do with a media query and flexbox? */
+      @media (max-width: 1250px) {
+        .pricing-container{
+          flex-direction: column;
+          height: 100%;
+        }
+      }
