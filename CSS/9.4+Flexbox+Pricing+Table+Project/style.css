@@ -6,32 +6,35 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 30px;
         height: 100vh;
+        gap: 30px;
       }
       
       .pricing-plan{
+        flex: 1;
         max-width: 400px;
         background-color: #f2f2f2;
         text-align: center;
         padding: 20px;
-        flex-grow: 1;
+        border-radius: 5px;
       }
 
       .plan-title{
-        font-size: 1.5rem;
+        font-size: 24px;
         font-weight: bold; 
         padding-bottom: 10px;
       }
 
       .plan-price{
-        font-size: 2.5rem;
+        font-size: 48px;
         font-weight: bold;
         padding-bottom: 10px;
       }
 
       .plan-features{
         list-style: none;
+        margin: 0;
+        padding: 0;
       }
 
       li{
@@ -43,7 +46,7 @@
         font-size: 14px;
         background-color: rgb(235, 102, 25);
         border: none;
-        padding: 7px;
+        padding: 10px;
         border-radius: 5px;
         padding-bottom: 10px;
       }
