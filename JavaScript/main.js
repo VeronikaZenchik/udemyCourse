@@ -27,3 +27,21 @@
 
     console.log("a is " + a);
     console.log("b is " + b);
+
+
+
+    // let message = "Hello"
+    // let guestName = prompt("Write your name...")
+
+    // alert(message + ", " + guestName)
+
+  let name = "Veronika"
+  console.log(name.length);
+
+  let enterPromt = prompt("Write your thoughts...")
+  let countLetters = enterPromt.length
+  let leftLetters = 140 - countLetters
+  alert("You have written" + countLetters + " characters, you have " + leftLetters + " characters left")
+  
+  
+      
