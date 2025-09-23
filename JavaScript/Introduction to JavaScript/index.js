@@ -53,9 +53,21 @@
   console.log(name.slice(0,5));
   
 
-
-  let enterPromt = prompt("Write your thoughts...")
-  let sliceLetter = enterPromt.slice(0, 140)
-  alert(sliceLetter)
+  // let enterPromt = prompt("Write your thoughts...")
+  // let sliceLetter = enterPromt.slice(0, 140)
+  // alert(sliceLetter)
+  // alert(enterPromt.slice(0, 140))
   
-      
+
+  // Casing String
+
+  let city = "Grodno"
+  console.log(city.toUpperCase());
+
+  let promptName = prompt("What is your name?")
+  let firstLetter = promptName.slice(0,1).toUpperCase()
+  let restLetter = promptName.slice(1, promptName.length).toLowerCase()
+  let fullName = firstLetter + restLetter
+  
+  alert("Hello," + " " + fullName)
+
