@@ -29,19 +29,33 @@
     console.log("b is " + b);
 
 
+// Naming variable
 
     // let message = "Hello"
     // let guestName = prompt("Write your name...")
-
     // alert(message + ", " + guestName)
 
+
+    // String length 
+
+  // let name = "Veronika"
+  // console.log(name.length);
+
+  // let enterPromt = prompt("Write your thoughts...")
+  // let countLetters = enterPromt.length
+  // let leftLetters = 140 - countLetters
+  // alert("You have written" + countLetters + " characters, you have " + leftLetters + " characters left")
+
+
+  // Slicing and Extracting parts of a String
+
   let name = "Veronika"
-  console.log(name.length);
+  console.log(name.slice(0,5));
+  
+
 
   let enterPromt = prompt("Write your thoughts...")
-  let countLetters = enterPromt.length
-  let leftLetters = 140 - countLetters
-  alert("You have written" + countLetters + " characters, you have " + leftLetters + " characters left")
-  
+  let sliceLetter = enterPromt.slice(0, 140)
+  alert(sliceLetter)
   
       
