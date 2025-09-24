@@ -57,17 +57,28 @@
   // let sliceLetter = enterPromt.slice(0, 140)
   // alert(sliceLetter)
   // alert(enterPromt.slice(0, 140))
-  
+
 
   // Casing String
 
   let city = "Grodno"
   console.log(city.toUpperCase());
 
-  let promptName = prompt("What is your name?")
-  let firstLetter = promptName.slice(0,1).toUpperCase()
-  let restLetter = promptName.slice(1, promptName.length).toLowerCase()
-  let fullName = firstLetter + restLetter
-  
-  alert("Hello," + " " + fullName)
+//   let promptName = prompt("What is your name?")
+//   let firstLetter = promptName.slice(0,1).toUpperCase()
+//   let restLetter = promptName.slice(1, promptName.length).toLowerCase()
+//   let fullName = firstLetter + restLetter
+
+//   alert("Hello," + " " + fullName)
+
+
+  //Numbers
+
+
+let dogAge = prompt("How old is your dog?")
+let humanAge = ((dogAge - 2) * 4) + 21
+
+alert("Your dog is " + humanAge + " years old in human years")
+
+
 
