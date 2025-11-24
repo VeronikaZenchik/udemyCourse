@@ -16,7 +16,6 @@ function fibonacciGenerator (n) {
     }
     return output
     
-    
     //Return an array of fibonacci numbers starting from 0.
     
 //Do NOT change any of the code below 👇
