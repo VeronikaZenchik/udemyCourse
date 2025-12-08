@@ -15,8 +15,32 @@ $("h2").click(function(){
 // }
 
 
+// $("button").click(function(){
+//   $("h1").css("color", "red")
+// })
+
+
+// $("button").click(function(){
+//   $("h1").toggle()
+// })
+
+// $("button").click(function(){
+//   $("h1").fadeOut()
+// })
+
+// $("button").click(function(){
+//   $("h1").slideUp()
+// })
+
+
+// $("button").click(function(){
+//   $("h1").animate({
+//     opacity: 0.5
+//   })
+// })
+
 $("button").click(function(){
-  $("h1").css("color", "red")
+  $("h1").slideUp().slideDown().animate({opacity: 0.5})
 })
 
 $("input").keydown(function(event){
@@ -33,7 +57,7 @@ $("h1").on("mouseover", function(){
   $("h1").css("color", "blue")
 })
 
-$("h1").before("<button>Before</button>")
-$("h1").after("<button>After</button>")
-$("h1").prepend("<button>Prepend</button>")
-$("h1").remove()
+// $("h1").before("<button>Before</button>")
+// $("h1").after("<button>After</button>")
+// $("h1").prepend("<button>Prepend</button>")
+// $("h1").remove()
